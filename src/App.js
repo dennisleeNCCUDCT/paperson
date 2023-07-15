@@ -3,8 +3,9 @@ import Spline from "@splinetool/react-spline";
 
 export default function App() {
   return (
-    <canvas className="test">
-      <Spline scene="https://prod.spline.design/P70WuUKssfdSpvOK/scene.splinecode" />
-    </canvas>
+    <Spline
+      className="test"
+      scene="https://prod.spline.design/P70WuUKssfdSpvOK/scene.splinecode"
+    />
   );
 }
