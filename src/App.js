@@ -1,14 +1,10 @@
-// import Spline from "@splinetool/react-spline";
+import Spline from "@splinetool/react-spline";
 import styled from "styled-components";
 
 export default function App() {
   return (
     <Wrapper>
-      <iframe
-        className="box"
-        title="frame"
-        url="https://prod.spline.design/P70WuUKssfdSpvOK/scene.splinecode"
-      />
+      <Spline scene="https://prod.spline.design/P70WuUKssfdSpvOK/scene.splinecode" />
     </Wrapper>
   );
 }
