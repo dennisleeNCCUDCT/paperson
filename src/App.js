@@ -6,6 +6,7 @@ export default function App() {
     <Wrapper>
       <iframe
         className="box"
+        title="frame"
         url="https://prod.spline.design/P70WuUKssfdSpvOK/scene.splinecode"
       />
     </Wrapper>
