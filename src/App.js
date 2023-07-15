@@ -11,7 +11,7 @@ export default function App() {
   );
 }
 
-const aaaWrapper = styled.div`
+const Wrapper = styled.div`
 width:100%;
 height100%;
 min-height:720px;`;
