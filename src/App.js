@@ -4,9 +4,9 @@ import styled from "styled-components";
 export default function App() {
   return (
     <Wrapper>
-      <Spline
+      <iframe
         className="box"
-        scene="https://prod.spline.design/P70WuUKssfdSpvOK/scene.splinecode"
+        url="https://prod.spline.design/P70WuUKssfdSpvOK/scene.splinecode"
       />
     </Wrapper>
   );
