@@ -14,6 +14,7 @@ export default function App() {
 }
 
 const Wrapper = styled.div`
-width:100%;
-height100%;
-min-height:720px;`;
+  width: 100%;
+  height: 100%;
+  min-height: 720px;
+`;
